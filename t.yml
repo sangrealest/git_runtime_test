@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: Test git runtime
+    debug:
+      msg: "Hello world"
